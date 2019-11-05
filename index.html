@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="question"></div>
+            
+
+            <h1>Ginger: beneficial properties</h1>
+			
+            <img src="imaage.jpg" alt="Nature">
+
+            <p class="main__p">A természet gondoskodott arról, hogy egy ember egészséges maradjon egész életében. A fejlődő gyógyszeripar rengeteg hazai és külföldi eredetű gyógyszert kínál, amely ráadásul messze nem elérhető mindenki számára - a gyógyszerek ára aránytalanul növekszik az átlagos orosz család jövedelmének növekedéséhez képest. És ha ehhez hozzáteszi az ellenjavallatok és mellékhatások kétes listáját, akkor akaratlanul emlékeztet a régi mondásra: "Az egyik gyógyítható, a másik botrányos". De néhány évtizeddel ezelőtt egy maroknyi tablettát felváltottak a kertben termesztett vagy a természet gondosan bemutatott természetes gyógyszerekre. A különféle betegségek népi receptjeit generációról generációra adták át a legnagyobb értékként, mert még akkoriban a legtapasztaltabb gyógyítók sem kételkedhettek hatékonyságukban. Hagyma, fokhagyma, ginzeng, szárnyas ... A „természetes orvosok” listája végtelenül felsorolható. De talán az egyik legérdekesebb hely a gyömbér. Hogyan növekszik a gyömbér: botanikai referencia A boltokban értékesített gyömbérgyökér szempontjából nehéz elképzelni, hogy ennek a sima kinézetű növénynek oly sok gyógyító tulajdonsága van. Ennek ellenére még a gyógyászat feltalálása előtt is nagy elismerés és tisztelet élvezte a jelentést - a szanszkritul nem ok nélkül „szarvasgyökér” (nem triviális formája miatt) vagy „univerzális gyógyszer” (hihetetlen tulajdonságai miatt) értelmezése. A gyömbér hazája Észak-India, ahol manapság a világ „gyömbérpiacának” több mint 50% -át növelik. Ez az évelő gyógynövény nem önmagában nő - különös gondossággal és aprólékossággal, kifejezetten erre kijelölt ültetvényeken termesztik annak érdekében, hogy a világ gyógyító gyógymódot nyújtson sok betegség számára. Az ókorban azonban nem csak gyógyszerként használták - sok ember használta a gyömbért afrodiziákumként. Láthatja, hogyan virágzik a gyömbér a növény életének második évében. A tüskés virágzat, amely pasztell sárga szirmokból áll, lila keretben, nem jelenik meg a karcsú gyömbérszáron olyan gyakran, ahogy szeretnénk - ezt a magas páratartalmat és hőt biztosító időjárási viszonyoknak meg kell könnyíteniük. Ennek ellenére a várakozás megéri, mert a virágzó gyömbér leírhatatlanul gyönyörű látvány.</p>
+
+            <a href="OrderForm.html" class="main__btn">Buy now!</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
