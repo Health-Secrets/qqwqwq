@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <div class="question"></div>
+            
+
+            <h1>Obst und Beeren</h1>
+			
+            <img src="imaage.jpg" alt="Nature">
+
+            <p class="main__p">Und was wissen wir über die Vorteile von Obst und Beeren? Lassen Sie uns versuchen, die Liste der Früchte zu durchgehen und zu sehen, was all diese wunderbaren Dinge bewirken.APRIKOSEN. Reich an Mineralien und Spurenelementen - Kalium, Eisen, enthalten Folsäure und Pantothensäure, Lycopin und Beta-Carotin. Übrigens ist all dies in getrockneten Früchten enthalten und schützt vor Krebs, was sich günstig auf die Schleimhäute und die Haut auswirkt. Aprikosen verbessern die Arbeit des Herz-Kreislauf-Systems, mildern den Husten und wirken wohltuend auf die Bronchien. Sie sind eine ausgezeichnete Quelle für Folsäure für schwangere Frauen. Und sie helfen auch dabei, überschüssiges Wasser aus dem Gewebe zu entfernen, was zu Gewichtsverlust führt.Ananas Frische Früchte enthalten viel Magnesium, Kalium, Phosphor, Eisen, Mangan, Kupfer, Zink, Jod, Vitamin C, Carotin, das Bromelin-Enzym. Ananas bekämpft Bakterien und Viren, senkt die Temperatur und verbessert den Appetit. Ein Stück Ananas vor dem Essen löst das Problem der Verstopfung. Ananas sind nützlich bei Entzündungen, Thrombosen und Brüchen. Ananassaft ist sehr nützlich für Krebspatienten und bei vermindertem Säuregehalt von Magensaft. Schwangere Frauen Ananas und ihren Saft sind jedoch nicht zu empfehlen!ORANGE. Es ist eine ausgezeichnete Quelle für Vitamin B und C, Kalium, Kalzium, Magnesium, Phosphor, Beta-Carotin und Selen. Orangen regen den Appetit an und verbessern die Stimmung, verbessern die Versorgung der Organe und Gewebe mit Sauerstoff, senken den Blutdruck und den Cholesterinspiegel, schützen die Zellen vor freien Radikalen und stärken im Allgemeinen das Immunsystem.</p>
+
+            <a href="OrderForm.html" class="main__btn">Buy now!</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
